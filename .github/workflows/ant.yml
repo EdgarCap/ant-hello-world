@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@master
     - name: Extract some files
       run: 7z x ./snap/test_deploy.7z -o./release
     - name: Extract some files
